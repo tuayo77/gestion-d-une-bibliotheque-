@@ -22,6 +22,7 @@ function loadResults(){
             } else {
                 table.html('');
                 for (var student in data) {
+                    
                     table.append(default_tpl(data[student]));
                 }
             }

@@ -1,5 +1,4 @@
-
-
+<%
 for(var i=0; i<branches_list.length; i++){
 	if(obj.branch == branches_list[i].id){
 		var student_branch = branches_list[i].branch;
@@ -33,7 +32,7 @@ student_year = student_year.trim().substring(2,4);
 	<td><%= student_branch %></td>
 	<td><%= student_category %></td>
 	<td>
-		<a class="btn btn-success student-status" data-status="1">Accepter</a>
-		<a class="btn btn-danger student-status" data-status="0">Réfuser</a>
+		<a class="btn btn-success student-status" data-status="1">Appouver</a>
+		<a class="btn btn-danger student-status" data-status="0">Rejeter</a>
 	</td>
 </tr>

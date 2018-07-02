@@ -14,8 +14,8 @@ The front end is built on **[Edmin Responsive Bootstrap Admin Template](http://e
 ## Setup
 
 ```shell
-git clone https://github.com/prabhakar267/library-management-system.git
-cd library-management-system
+git clone https://github.com/tuayo77/gestion-d-une-bibliotheque-.git
+cd project name
 ```
 
 ```shell
@@ -46,8 +46,6 @@ php artisan serve
  + The most important feature for any library is to issue and return books. A panel to view all outstanding logs and a super simple panel to issue and return books for all librarians
 
 
-![](meta/screencapture-library-local-1450375427449.png)
-
 --------------------------
-Feel free to contact me via [email](http://goo.gl/68kmd6)
+Feel free to contact me via [email](contact@tuayo-borel.site)
 
